@@ -37,3 +37,6 @@
    python virtual_plc.py
    python factory_hub.py
    ```
+## 📸 Демонстрация работы
+
+<img width="652" height="505" alt="image" src="https://github.com/user-attachments/assets/1523ceaa-b0c6-40fe-977d-86367c0f9d38" />
