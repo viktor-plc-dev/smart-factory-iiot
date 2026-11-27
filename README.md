@@ -40,3 +40,5 @@
 ## 📸 Демонстрация работы
 
 <img width="652" height="505" alt="image" src="https://github.com/user-attachments/assets/1523ceaa-b0c6-40fe-977d-86367c0f9d38" />
+<img width="931" height="918" alt="image" src="https://github.com/user-attachments/assets/ea5e6399-3cfe-4eb1-ab54-50e73c74bff3" />
+
