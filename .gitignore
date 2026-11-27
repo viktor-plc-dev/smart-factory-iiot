@@ -1,0 +1,7 @@
+.env
+*.db
+*.xlsx
+*.mp4
+*.pt
+__pycache__/
+data/
