@@ -1,13 +1,14 @@
 import json
 import paho.mqtt.client as mqtt
 from notifier import AlertManager
+import os
+from dotenv import load_dotenv
 
-# Вставь сюда свои реальные значения из monitor.py
-TG_CONFIG = {
-    "token": "9093240023:AAF_eT3-Y1RJDAJeC5UXwL-xssgotdOh9hE",
-    "chat_id": "5632282365",
-    "proxy_url": "socks5h://193.25.215.182:22222"  # или None, если без прокси
-}
+load_dotenv()
+
+TG_TOKEN = os.getenv("TG_TOKEN", "")
+TG_CHAT_ID = os.getenv("TG_CHAT_ID", "")
+PROXY_URL = os.getenv("PROXY_URL", "")
 
 alerter = AlertManager(tg_config=TG_CONFIG)
 
