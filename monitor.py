@@ -4,9 +4,9 @@ from pymodbus.client import ModbusTcpClient
 from notifier import AlertManager
 
 # --- НАСТРОЙКИ ---
-BOT_TOKEN = "9093240023:AAF_eT3-Y1RJDAJeC5UXwL-xssgotdOh9hE"
-CHAT_ID = "5632282365"
-PROXY_URL = "socks5h://193.25.215.182:22222"
+TG_TOKEN = os.getenv("TG_TOKEN", "")
+TG_CHAT_ID = os.getenv("TG_CHAT_ID", "")
+PROXY_URL = os.getenv("PROXY_URL", "")
 
 PLC_IP = "127.0.0.1"
 PLC_PORT = 5020
